@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 
+import "./style.css";
+
 function DevForm({ onSubmit }) {
   const [github_username, setGithub_username] = useState("");
   const [techs, setTechs] = useState("");
